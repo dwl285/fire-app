@@ -9,7 +9,7 @@ export default () => (
     <Header title="Welcome to the FIRE calculator" />
     <InputGroup title="Initial conditions">
       {InitialConditions.list().map(i =>
-        <Input label={i.label} initialValue={i.defaultValue} />
+        <Input label={i.label} initialValue={i.defaultValue} key={i.label} />
       )}
     </InputGroup>
   </div>
