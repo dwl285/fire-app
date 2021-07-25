@@ -3,8 +3,8 @@ import { InitialConditions } from '../types/classes'
 import Header from '../components/header'
 import InputGroup from '../components/inputGroup'
 
-export default () => (
-  <div >
+function Index() {
+  return <div >
     <h1 >Welcome to the FIRE calculator</h1>
     <Header title="Welcome to the FIRE calculator" />
     <InputGroup title="Initial conditions">
@@ -13,4 +13,6 @@ export default () => (
       )}
     </InputGroup>
   </div>
-)
+}
+
+export default Index;
