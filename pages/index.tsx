@@ -1,7 +1,7 @@
 import Input from '../components/input'
 import { InitialConditions } from '../types/classes'
 import Header from '../components/header'
-import InputGroup from '../components/InputGroup'
+import InputGroup from '../components/inputGroup'
 
 export default () => (
   <div >
