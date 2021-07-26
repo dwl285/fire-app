@@ -5,9 +5,9 @@ type Props = {
 
 const InputGroup = ({ title, children }: Props) => {
     return (
-        <div>
+        <div className="m-4 p-4 border-2 border-gray-300 rounded-md">
             <h3 className="text-xl font-bold leading-7">{title}</h3>
-            <div className="grid grid-cols-3 gap-4 p-1">
+            <div className="grid grid-cols-5 gap-4 p-1">
                 {children}
             </div>
         </div>
