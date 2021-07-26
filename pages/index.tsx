@@ -5,7 +5,6 @@ import InputGroup from '../components/inputGroup'
 
 function Index() {
   return <div >
-    <h1 >Welcome to the FIRE calculator</h1>
     <Header title="Welcome to the FIRE calculator" />
     <InputGroup title="Initial conditions">
       {Conditions.list().map(i =>
